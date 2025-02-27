@@ -1,0 +1,45 @@
+.body {
+    font-family: "Barlow", sans-serif;
+    color:  #516171;
+    line-height: 1.7;
+}
+
+.intro {margin-bottom: 36px;
+    text-align: center;
+    margin-top: 100px;
+}
+    
+    .intro p {
+        max-width: 500px;
+    }
+    .intro h6{
+        color:linear-gradient(90deg, rgba(183,255,187,1) 0%, rgba(0,77,204,1) 100%);
+    
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+   
+    .intro h1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+h1,h2,h3,h4,h5,h6,
+.display-1,.display-2,.display-3,.display-4 {
+    font-weight: 700;
+    color: #092032;
+}
+.service {
+    padding: 32px;
+    background-color: #fff;
+    box-shadow:  0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.service h5 {
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.service img {
+    width: 90px;
+}

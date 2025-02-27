@@ -1,0 +1,124 @@
+
+.intro {
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.intro h6 {
+    color: #ff4d29;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;  /* Adjust font size for better readability */
+    margin-bottom: 15px;  /* Space between h6 and h1 */
+}
+
+.intro h1 {
+    font-size: 36px;  /* Adjust font size for h1 */
+    font-weight: 700;
+    color: #092032;
+    margin-top: 15px;
+    margin-bottom: 20px;  /* Space below h1 */
+}
+
+.intro p {
+    max-width: 700px;  /* Maximum width for paragraph */
+    font-size: 16px;
+    color: #6c757d;  /* Lighter color for paragraph text */
+    line-height: 1.7;
+    margin: 0 auto;  /* Centers the paragraph */
+    padding: 0 15px;  /* Adds some padding to left and right for better readability */
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .intro h1 {
+        font-size: 28px;  /* Smaller font size for mobile screens */
+    }
+
+    .intro p {
+        font-size: 14px;  /* Smaller font size for mobile screens */
+        padding: 0 10px;  /* Adjust padding for smaller screens */
+    }
+}
+
+
+.blog-post {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.blog-post img {
+    width: 100%; /* Ensures the image fills the width of the container */
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the space without distortion */
+    object-position: center; /* Keeps the focus on the center of the image */
+}
+
+.blog-post .content {
+    padding: 32px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    overflow: hidden;
+}
+
+.blog-post .content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.blog-post .content .read-more {
+    position: absolute;
+    bottom: 20px;
+    left: 32px;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.blog-post .content a {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.blog-post .content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.blog-post small {
+    text-transform: uppercase;
+    color: #ff4d29;
+    text-decoration: underline;
+}
+
+.blog-post h5 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.blog-post .tag {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 77, 204, 1);
+    padding: 2px 12px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    padding-left: 10px;  /* Extra padding on the left side */
+    padding-right: 10px; /* Extra padding on the right side */
+    max-width: 1400px;   /* Maximum width of the container */
+    margin: 0 auto;      /* Center the container */
+}

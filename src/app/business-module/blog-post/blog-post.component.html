@@ -1,1 +1,32 @@
-<p>blog-post works!</p>
+<section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="intro">
+            <h6>Blog</h6>
+            <h1>Latest Blog Posts</h1>
+            <p class="mx-auto">Stay up to date with the latest trends and insights in web design, programming, and marketing. Our blog is here to share knowledge and help you stay ahead in the digital world.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div *ngFor="let post of posts; let i = index" class="col-md-4">
+          <article class="blog-post">
+            <!-- <a href="#" class="tag">{{ post.category }}</a> -->
+            <img [src]="post.imageUrl" alt="{{ post.title }}">
+            <div class="content">
+              <small>{{ post.date }}</small>
+              <h5>{{ post.title }}</h5>
+              <p>
+                {{ post.showFullDescription ? post.description : (post.description | slice:0:150) }}...
+              </p>
+              <a href="javascript:void(0)" class="read-more" (click)="toggleDescription(i)">
+                {{ post.showFullDescription ? 'Read Less' : 'Read More' }}
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  

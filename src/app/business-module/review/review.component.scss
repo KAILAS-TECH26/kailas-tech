@@ -1,0 +1,57 @@
+
+#reviews {
+
+    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../../../assets/bg_banner1.jpg), #082032;;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.review {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    margin: 15px;
+    max-width: 768px;
+    margin: auto;
+}
+
+.review .bxs-quote-alt-left {
+    font-size: 120px;
+    position: absolute;
+    opacity: 0.1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.review img {
+    width: 80px !important;
+    height: 80px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.review h5 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.review h3 {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.review small {
+    color: #ff4d29;
+}
+
+.review .stars {
+    color: #ff4d29;
+}
